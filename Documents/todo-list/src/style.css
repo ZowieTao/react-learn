@@ -1,0 +1,22 @@
+body{
+  margin: 100px;
+}
+.input{
+  border: 1px solid #ff0000;
+  margin-bottom: 300px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .input {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
